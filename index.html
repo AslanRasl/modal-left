@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Modal</title>
+</head>
+<body>
+    <div class="modal ">
+        <div class="modal__top">
+            <h1 class="modal__title">Modal title</h1>
+            <button class="modal__x" onclick="fnClose()">X</button>
+        </div>
+        <div class="modal__body">
+            <h2 class="modal__body__title">Lorem ipsum dolor sit amet 
+                consectetur adipisicing elit. Sequi nobis officia 
+                quisquam aut, delectus voluptatum itaque consequuntur 
+                eligendi laudantium earum porro corporis aliquid sint
+                 obcaecati, quas expedita recusandae minus sapiente 
+                 voluptas dolore non, explicabo dicta molestiae. Est
+                  corporis veniam vero in quod inventore deleniti 
+                  aspernatur. Quasi veritatis ab hic magni velit, 
+                  maxime officiis soluta suscipit earum quaerat ducimus
+                   cum repellat repellendus labore facere rem enim sed
+                    dolor exercitationem tempora fugiat perspiciatis 
+                    laudantium! Commodi officia iste non quisquam 
+                    eveniet beatae odit porro sequi perferendis ab 
+                    quos, itaque ipsam, fugit dicta corrupti. 
+                    Obcaecati laborum odio quisquam minima quia 
+                    sunt nisi, error in.</h2>
+        </div>
+        <div class="modal__footer">
+            <button class="save__btn">Save changes</button>
+            <button class="close__btn" onclick="fnClose()">close</button>
+        </div>
+    </div>
+    <div class="modal__open__btn">
+        <button class="open__btn" onclick="fnOpen()">open modal</button>
+    </div>
+    <div class="modal__shadow" onclick="fnClose()"></div>
+</body>
+<script src="./js/main.js"></script>
+</html>
