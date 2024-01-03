@@ -61,7 +61,7 @@ h2{
     border-top: 1px solid #000;
     display: flex;
     justify-content: end;
-    margin-top: 260px;
+    margin-top: 230px;
     padding-top: 20px;
 }
 .close__btn{
@@ -93,6 +93,7 @@ font-weight: bold;
 border-radius:10px;
 color:white;
 cursor:pointer;
+margin: 30px;
 }
 .open__modal{
  margin-left: 0px;
@@ -107,4 +108,11 @@ cursor:pointer;
     top: 0;
     display: none;
     z-index: 10;
+}
+.modal__body__title{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.modal__title{
+    margin-left: 10px;
 }
